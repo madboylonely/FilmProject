@@ -1,4 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@import "./Helper/variable";
+@import "./Base/reset";
+
+@import "./Helper/mixin";
+
+@import "./Layout/navbar";
+@import "./Layout/carousel";
+@import "./Layout/homeTool";
+@import "./Layout/listFilm";
+@import "./Layout/showtimes";
+@import "./Layout/news";
+@import "./Layout/footer";
+
+@import "./Component/button";
