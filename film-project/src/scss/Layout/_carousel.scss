@@ -1,0 +1,16 @@
+.carousel{
+    #myCarousel{
+        .carousel-indicators{
+            li{
+            width: 11px;
+            height: 11px;
+            background: $color-white-0;
+            border: 1.5px solid $color-white-0;
+            border-radius: 50%;
+            }
+            li.active{
+                background: $color-red-0;
+            }
+        }
+    }
+}

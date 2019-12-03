@@ -1,1 +1,27 @@
-// this component must be set display: fixed 
+.navbar{
+    padding: 0;
+    background-color: rgba(255,255,255, 0.8);
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: $color-black-0;
+                transition: all .5s;
+                cursor: pointer;
+                padding: 0 1rem;
+                font-size: $fw-medium;
+            }
+            .nav-link:hover{
+                color: $color-red-0;
+            }
+        }
+    }
+    .right{
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            i{
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
