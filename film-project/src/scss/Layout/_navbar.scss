@@ -1,1 +1,19 @@
 // this component must be set display: fixed 
+.navbar {
+    position: absolute;
+    background-color: $color-yellow-0;//rgba(248,207,28, 0.6);
+    .navbar-nav {
+        justify-content: space-around;
+        .nav-item {
+            a {
+                color: $color-white-0;
+                transition: all 0.25s linear;
+                padding: 5px 40px;
+                font-weight: bold;
+            }
+            :hover {
+                color: $color-black-0;
+            }
+        }
+    }
+}
