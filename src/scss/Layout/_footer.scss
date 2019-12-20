@@ -1,0 +1,24 @@
+.footer {
+  .footer_container {
+    .container {
+      .title {
+        color: #f8f8f8;
+        font-size: 13px;
+        margin-bottom: 8px;
+      }
+      .title__item{
+        display: block;
+        color: #949494;
+        font-size: 13px;
+        font-weight: normal;
+        text-decoration: none;
+        margin-bottom: 5px;
+      }
+      img{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+      }
+    }
+  }
+}
