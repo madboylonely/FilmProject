@@ -1,0 +1,39 @@
+.filterFilm {
+	position: relative;
+	.container {
+		transform: translateY(-40px);
+		display: flex;
+		justify-content: space-around;
+		box-shadow: 0 0 10px rgba(0,0,0,.3);
+		border-radius: 5px;
+		background-color: #fff;
+		width: 900px;
+		.dropdown {
+			margin: 20px;
+			.btn-warning {
+				padding: 0 20px;
+				font-size: 2em;
+				background: #fff;
+				border: none;
+				border-radius: 0;
+				border-right: 1px solid rgba(245,204,42,1);
+				&:focus {
+					box-shadow: none;
+				}
+				&:active:focus {
+					background-color: #fff;
+					box-shadow: none;
+				}
+			}
+			.my-button {
+				font-size: 2em;
+				background-color: rgba(245,204,42,1);
+				border: 1px solid rgba(245,204,42,1);
+				color: black;
+			}
+			.dropdown-item {
+				font-size: 1em;
+			}
+		}
+	}
+}

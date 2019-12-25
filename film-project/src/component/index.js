@@ -6,13 +6,15 @@ import ShowTime from "./showtime";
 import ListFilm from "./listfilm";
 import News from "./news";
 import Footer from "./footer";
+import Header from './header';
+import FilterFilm from './filterFilm';
 
 export default class HomePage extends Component {
     render() {
         return (
             <div>
-                <Navbar />
-                <Carousel />
+                <Header />
+                <FilterFilm />
                 <HomeTool />
                 <ShowTime />
                 <ListFilm />
